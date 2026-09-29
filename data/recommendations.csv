@@ -1,0 +1,261 @@
+Target_Product_ID,Target_Product_Name,Recommended_Product_ID,Recommended_Product_Name,Similarity_Score,Similarity_Percentage
+PROD-001,Apple iPhone 16 Pro Max,PROD-002,Apple iPhone 16,0.6778,67.8%
+PROD-001,Apple iPhone 16 Pro Max,PROD-003,Apple iPhone 15 Pro,0.6374,63.7%
+PROD-001,Apple iPhone 16 Pro Max,PROD-006,Google Pixel 9 Pro,0.3625,36.2%
+PROD-001,Apple iPhone 16 Pro Max,PROD-025,Apple iPad Pro 13 M4,0.2789,27.9%
+PROD-001,Apple iPhone 16 Pro Max,PROD-009,Apple MacBook Pro 16 M3 Max,0.2466,24.7%
+PROD-002,Apple iPhone 16,PROD-001,Apple iPhone 16 Pro Max,0.6778,67.8%
+PROD-002,Apple iPhone 16,PROD-003,Apple iPhone 15 Pro,0.5186,51.9%
+PROD-002,Apple iPhone 16,PROD-006,Google Pixel 9 Pro,0.2622,26.2%
+PROD-002,Apple iPhone 16,PROD-025,Apple iPad Pro 13 M4,0.2296,23.0%
+PROD-002,Apple iPhone 16,PROD-005,Samsung Galaxy Z Fold 5,0.1873,18.7%
+PROD-003,Apple iPhone 15 Pro,PROD-001,Apple iPhone 16 Pro Max,0.6374,63.7%
+PROD-003,Apple iPhone 15 Pro,PROD-002,Apple iPhone 16,0.5186,51.9%
+PROD-003,Apple iPhone 15 Pro,PROD-006,Google Pixel 9 Pro,0.303,30.3%
+PROD-003,Apple iPhone 15 Pro,PROD-004,Samsung Galaxy S24 Ultra,0.2514,25.1%
+PROD-003,Apple iPhone 15 Pro,PROD-025,Apple iPad Pro 13 M4,0.2498,25.0%
+PROD-004,Samsung Galaxy S24 Ultra,PROD-005,Samsung Galaxy Z Fold 5,0.4937,49.4%
+PROD-004,Samsung Galaxy S24 Ultra,PROD-027,Samsung Galaxy Tab S9 Ultra,0.381,38.1%
+PROD-004,Samsung Galaxy S24 Ultra,PROD-007,OnePlus 12 5G,0.299,29.9%
+PROD-004,Samsung Galaxy S24 Ultra,PROD-008,Xiaomi 14 Ultra,0.2889,28.9%
+PROD-004,Samsung Galaxy S24 Ultra,PROD-003,Apple iPhone 15 Pro,0.2514,25.1%
+PROD-005,Samsung Galaxy Z Fold 5,PROD-004,Samsung Galaxy S24 Ultra,0.4937,49.4%
+PROD-005,Samsung Galaxy Z Fold 5,PROD-027,Samsung Galaxy Tab S9 Ultra,0.2832,28.3%
+PROD-005,Samsung Galaxy Z Fold 5,PROD-007,OnePlus 12 5G,0.2615,26.1%
+PROD-005,Samsung Galaxy Z Fold 5,PROD-008,Xiaomi 14 Ultra,0.2195,21.9%
+PROD-005,Samsung Galaxy Z Fold 5,PROD-001,Apple iPhone 16 Pro Max,0.2099,21.0%
+PROD-006,Google Pixel 9 Pro,PROD-001,Apple iPhone 16 Pro Max,0.3625,36.2%
+PROD-006,Google Pixel 9 Pro,PROD-003,Apple iPhone 15 Pro,0.303,30.3%
+PROD-006,Google Pixel 9 Pro,PROD-002,Apple iPhone 16,0.2622,26.2%
+PROD-006,Google Pixel 9 Pro,PROD-004,Samsung Galaxy S24 Ultra,0.2,20.0%
+PROD-006,Google Pixel 9 Pro,PROD-005,Samsung Galaxy Z Fold 5,0.1877,18.8%
+PROD-007,OnePlus 12 5G,PROD-004,Samsung Galaxy S24 Ultra,0.299,29.9%
+PROD-007,OnePlus 12 5G,PROD-008,Xiaomi 14 Ultra,0.262,26.2%
+PROD-007,OnePlus 12 5G,PROD-005,Samsung Galaxy Z Fold 5,0.2615,26.1%
+PROD-007,OnePlus 12 5G,PROD-003,Apple iPhone 15 Pro,0.2108,21.1%
+PROD-007,OnePlus 12 5G,PROD-001,Apple iPhone 16 Pro Max,0.2054,20.5%
+PROD-008,Xiaomi 14 Ultra,PROD-004,Samsung Galaxy S24 Ultra,0.2889,28.9%
+PROD-008,Xiaomi 14 Ultra,PROD-007,OnePlus 12 5G,0.262,26.2%
+PROD-008,Xiaomi 14 Ultra,PROD-005,Samsung Galaxy Z Fold 5,0.2195,21.9%
+PROD-008,Xiaomi 14 Ultra,PROD-006,Google Pixel 9 Pro,0.1829,18.3%
+PROD-008,Xiaomi 14 Ultra,PROD-027,Samsung Galaxy Tab S9 Ultra,0.154,15.4%
+PROD-009,Apple MacBook Pro 16 M3 Max,PROD-010,Apple MacBook Air 15 M3,0.5623,56.2%
+PROD-009,Apple MacBook Pro 16 M3 Max,PROD-001,Apple iPhone 16 Pro Max,0.2466,24.7%
+PROD-009,Apple MacBook Pro 16 M3 Max,PROD-025,Apple iPad Pro 13 M4,0.2244,22.4%
+PROD-009,Apple MacBook Pro 16 M3 Max,PROD-026,Apple iPad Air 11 M2,0.199,19.9%
+PROD-009,Apple MacBook Pro 16 M3 Max,PROD-002,Apple iPhone 16,0.1693,16.9%
+PROD-010,Apple MacBook Air 15 M3,PROD-009,Apple MacBook Pro 16 M3 Max,0.5623,56.2%
+PROD-010,Apple MacBook Air 15 M3,PROD-026,Apple iPad Air 11 M2,0.2674,26.7%
+PROD-010,Apple MacBook Air 15 M3,PROD-025,Apple iPad Pro 13 M4,0.1897,19.0%
+PROD-010,Apple MacBook Air 15 M3,PROD-002,Apple iPhone 16,0.1788,17.9%
+PROD-010,Apple MacBook Air 15 M3,PROD-001,Apple iPhone 16 Pro Max,0.1483,14.8%
+PROD-011,Dell XPS 15 9530,PROD-013,ASUS ROG Zephyrus G16 OLED,0.4289,42.9%
+PROD-011,Dell XPS 15 9530,PROD-012,Lenovo ThinkPad X1 Carbon Gen 11,0.2735,27.4%
+PROD-011,Dell XPS 15 9530,PROD-014,HP Spectre x360 2-in-1,0.2734,27.3%
+PROD-011,Dell XPS 15 9530,PROD-009,Apple MacBook Pro 16 M3 Max,0.128,12.8%
+PROD-011,Dell XPS 15 9530,PROD-010,Apple MacBook Air 15 M3,0.1074,10.7%
+PROD-012,Lenovo ThinkPad X1 Carbon Gen 11,PROD-011,Dell XPS 15 9530,0.2735,27.4%
+PROD-012,Lenovo ThinkPad X1 Carbon Gen 11,PROD-014,HP Spectre x360 2-in-1,0.2661,26.6%
+PROD-012,Lenovo ThinkPad X1 Carbon Gen 11,PROD-013,ASUS ROG Zephyrus G16 OLED,0.2129,21.3%
+PROD-012,Lenovo ThinkPad X1 Carbon Gen 11,PROD-009,Apple MacBook Pro 16 M3 Max,0.1018,10.2%
+PROD-012,Lenovo ThinkPad X1 Carbon Gen 11,PROD-028,Microsoft Surface Pro 11 Copilot+ PC,0.0968,9.7%
+PROD-013,ASUS ROG Zephyrus G16 OLED,PROD-011,Dell XPS 15 9530,0.4289,42.9%
+PROD-013,ASUS ROG Zephyrus G16 OLED,PROD-014,HP Spectre x360 2-in-1,0.227,22.7%
+PROD-013,ASUS ROG Zephyrus G16 OLED,PROD-012,Lenovo ThinkPad X1 Carbon Gen 11,0.2129,21.3%
+PROD-013,ASUS ROG Zephyrus G16 OLED,PROD-009,Apple MacBook Pro 16 M3 Max,0.1303,13.0%
+PROD-013,ASUS ROG Zephyrus G16 OLED,PROD-028,Microsoft Surface Pro 11 Copilot+ PC,0.1121,11.2%
+PROD-014,HP Spectre x360 2-in-1,PROD-011,Dell XPS 15 9530,0.2734,27.3%
+PROD-014,HP Spectre x360 2-in-1,PROD-012,Lenovo ThinkPad X1 Carbon Gen 11,0.2661,26.6%
+PROD-014,HP Spectre x360 2-in-1,PROD-013,ASUS ROG Zephyrus G16 OLED,0.227,22.7%
+PROD-014,HP Spectre x360 2-in-1,PROD-027,Samsung Galaxy Tab S9 Ultra,0.1337,13.4%
+PROD-014,HP Spectre x360 2-in-1,PROD-028,Microsoft Surface Pro 11 Copilot+ PC,0.1253,12.5%
+PROD-015,Sony WH-1000XM5 Noise Cancelling Headphones,PROD-019,Sony WF-1000XM5 True Wireless Earbuds,0.425,42.5%
+PROD-015,Sony WH-1000XM5 Noise Cancelling Headphones,PROD-016,Bose QuietComfort Ultra Headphones,0.262,26.2%
+PROD-015,Sony WH-1000XM5 Noise Cancelling Headphones,PROD-017,Apple AirPods Max,0.2075,20.8%
+PROD-015,Sony WH-1000XM5 Noise Cancelling Headphones,PROD-018,Sennheiser Momentum 4 Wireless,0.2052,20.5%
+PROD-015,Sony WH-1000XM5 Noise Cancelling Headphones,PROD-020,Apple AirPods Pro 2 (USB-C),0.1883,18.8%
+PROD-016,Bose QuietComfort Ultra Headphones,PROD-015,Sony WH-1000XM5 Noise Cancelling Headphones,0.262,26.2%
+PROD-016,Bose QuietComfort Ultra Headphones,PROD-020,Apple AirPods Pro 2 (USB-C),0.2348,23.5%
+PROD-016,Bose QuietComfort Ultra Headphones,PROD-017,Apple AirPods Max,0.2313,23.1%
+PROD-016,Bose QuietComfort Ultra Headphones,PROD-019,Sony WF-1000XM5 True Wireless Earbuds,0.1991,19.9%
+PROD-016,Bose QuietComfort Ultra Headphones,PROD-043,Bose SoundLink Flex Bluetooth Speaker Gen 2,0.176,17.6%
+PROD-017,Apple AirPods Max,PROD-020,Apple AirPods Pro 2 (USB-C),0.3924,39.2%
+PROD-017,Apple AirPods Max,PROD-016,Bose QuietComfort Ultra Headphones,0.2313,23.1%
+PROD-017,Apple AirPods Max,PROD-019,Sony WF-1000XM5 True Wireless Earbuds,0.2086,20.9%
+PROD-017,Apple AirPods Max,PROD-015,Sony WH-1000XM5 Noise Cancelling Headphones,0.2075,20.8%
+PROD-017,Apple AirPods Max,PROD-018,Sennheiser Momentum 4 Wireless,0.1799,18.0%
+PROD-018,Sennheiser Momentum 4 Wireless,PROD-020,Apple AirPods Pro 2 (USB-C),0.2486,24.9%
+PROD-018,Sennheiser Momentum 4 Wireless,PROD-015,Sony WH-1000XM5 Noise Cancelling Headphones,0.2052,20.5%
+PROD-018,Sennheiser Momentum 4 Wireless,PROD-017,Apple AirPods Max,0.1799,18.0%
+PROD-018,Sennheiser Momentum 4 Wireless,PROD-019,Sony WF-1000XM5 True Wireless Earbuds,0.1533,15.3%
+PROD-018,Sennheiser Momentum 4 Wireless,PROD-016,Bose QuietComfort Ultra Headphones,0.1366,13.7%
+PROD-019,Sony WF-1000XM5 True Wireless Earbuds,PROD-015,Sony WH-1000XM5 Noise Cancelling Headphones,0.425,42.5%
+PROD-019,Sony WF-1000XM5 True Wireless Earbuds,PROD-020,Apple AirPods Pro 2 (USB-C),0.2733,27.3%
+PROD-019,Sony WF-1000XM5 True Wireless Earbuds,PROD-017,Apple AirPods Max,0.2086,20.9%
+PROD-019,Sony WF-1000XM5 True Wireless Earbuds,PROD-016,Bose QuietComfort Ultra Headphones,0.1991,19.9%
+PROD-019,Sony WF-1000XM5 True Wireless Earbuds,PROD-018,Sennheiser Momentum 4 Wireless,0.1533,15.3%
+PROD-020,Apple AirPods Pro 2 (USB-C),PROD-017,Apple AirPods Max,0.3924,39.2%
+PROD-020,Apple AirPods Pro 2 (USB-C),PROD-019,Sony WF-1000XM5 True Wireless Earbuds,0.2733,27.3%
+PROD-020,Apple AirPods Pro 2 (USB-C),PROD-018,Sennheiser Momentum 4 Wireless,0.2486,24.9%
+PROD-020,Apple AirPods Pro 2 (USB-C),PROD-016,Bose QuietComfort Ultra Headphones,0.2348,23.5%
+PROD-020,Apple AirPods Pro 2 (USB-C),PROD-021,Apple Watch Ultra 2,0.1991,19.9%
+PROD-021,Apple Watch Ultra 2,PROD-022,Apple Watch Series 9,0.5031,50.3%
+PROD-021,Apple Watch Ultra 2,PROD-020,Apple AirPods Pro 2 (USB-C),0.1991,19.9%
+PROD-021,Apple Watch Ultra 2,PROD-023,Samsung Galaxy Watch 6 Classic,0.1695,16.9%
+PROD-021,Apple Watch Ultra 2,PROD-024,Garmin Fenix 7 Pro Solar,0.132,13.2%
+PROD-021,Apple Watch Ultra 2,PROD-001,Apple iPhone 16 Pro Max,0.1102,11.0%
+PROD-022,Apple Watch Series 9,PROD-021,Apple Watch Ultra 2,0.5031,50.3%
+PROD-022,Apple Watch Series 9,PROD-023,Samsung Galaxy Watch 6 Classic,0.1974,19.7%
+PROD-022,Apple Watch Series 9,PROD-002,Apple iPhone 16,0.1498,15.0%
+PROD-022,Apple Watch Series 9,PROD-020,Apple AirPods Pro 2 (USB-C),0.1413,14.1%
+PROD-022,Apple Watch Series 9,PROD-045,Belkin 3-in-1 MagSafe Wireless Charging Stand 15W,0.1242,12.4%
+PROD-023,Samsung Galaxy Watch 6 Classic,PROD-022,Apple Watch Series 9,0.1974,19.7%
+PROD-023,Samsung Galaxy Watch 6 Classic,PROD-021,Apple Watch Ultra 2,0.1695,16.9%
+PROD-023,Samsung Galaxy Watch 6 Classic,PROD-005,Samsung Galaxy Z Fold 5,0.165,16.5%
+PROD-023,Samsung Galaxy Watch 6 Classic,PROD-004,Samsung Galaxy S24 Ultra,0.1592,15.9%
+PROD-023,Samsung Galaxy Watch 6 Classic,PROD-027,Samsung Galaxy Tab S9 Ultra,0.1527,15.3%
+PROD-024,Garmin Fenix 7 Pro Solar,PROD-021,Apple Watch Ultra 2,0.132,13.2%
+PROD-024,Garmin Fenix 7 Pro Solar,PROD-023,Samsung Galaxy Watch 6 Classic,0.114,11.4%
+PROD-024,Garmin Fenix 7 Pro Solar,PROD-022,Apple Watch Series 9,0.1034,10.3%
+PROD-024,Garmin Fenix 7 Pro Solar,PROD-047,Anker MagGo Power Bank 10000mAh Qi2 15W,0.0799,8.0%
+PROD-024,Garmin Fenix 7 Pro Solar,PROD-001,Apple iPhone 16 Pro Max,0.0508,5.1%
+PROD-025,Apple iPad Pro 13 M4,PROD-026,Apple iPad Air 11 M2,0.4738,47.4%
+PROD-025,Apple iPad Pro 13 M4,PROD-001,Apple iPhone 16 Pro Max,0.2789,27.9%
+PROD-025,Apple iPad Pro 13 M4,PROD-003,Apple iPhone 15 Pro,0.2498,25.0%
+PROD-025,Apple iPad Pro 13 M4,PROD-002,Apple iPhone 16,0.2296,23.0%
+PROD-025,Apple iPad Pro 13 M4,PROD-009,Apple MacBook Pro 16 M3 Max,0.2244,22.4%
+PROD-026,Apple iPad Air 11 M2,PROD-025,Apple iPad Pro 13 M4,0.4738,47.4%
+PROD-026,Apple iPad Air 11 M2,PROD-010,Apple MacBook Air 15 M3,0.2674,26.7%
+PROD-026,Apple iPad Air 11 M2,PROD-003,Apple iPhone 15 Pro,0.2096,21.0%
+PROD-026,Apple iPad Air 11 M2,PROD-009,Apple MacBook Pro 16 M3 Max,0.199,19.9%
+PROD-026,Apple iPad Air 11 M2,PROD-001,Apple iPhone 16 Pro Max,0.1962,19.6%
+PROD-027,Samsung Galaxy Tab S9 Ultra,PROD-004,Samsung Galaxy S24 Ultra,0.381,38.1%
+PROD-027,Samsung Galaxy Tab S9 Ultra,PROD-005,Samsung Galaxy Z Fold 5,0.2832,28.3%
+PROD-027,Samsung Galaxy Tab S9 Ultra,PROD-008,Xiaomi 14 Ultra,0.154,15.4%
+PROD-027,Samsung Galaxy Tab S9 Ultra,PROD-023,Samsung Galaxy Watch 6 Classic,0.1527,15.3%
+PROD-027,Samsung Galaxy Tab S9 Ultra,PROD-014,HP Spectre x360 2-in-1,0.1337,13.4%
+PROD-028,Microsoft Surface Pro 11 Copilot+ PC,PROD-025,Apple iPad Pro 13 M4,0.2144,21.4%
+PROD-028,Microsoft Surface Pro 11 Copilot+ PC,PROD-014,HP Spectre x360 2-in-1,0.1253,12.5%
+PROD-028,Microsoft Surface Pro 11 Copilot+ PC,PROD-027,Samsung Galaxy Tab S9 Ultra,0.1191,11.9%
+PROD-028,Microsoft Surface Pro 11 Copilot+ PC,PROD-005,Samsung Galaxy Z Fold 5,0.1155,11.5%
+PROD-028,Microsoft Surface Pro 11 Copilot+ PC,PROD-013,ASUS ROG Zephyrus G16 OLED,0.1121,11.2%
+PROD-029,Keychron Q1 Pro Wireless Custom Mechanical Keyboard,PROD-031,Logitech MX Mechanical Wireless Keyboard,0.3013,30.1%
+PROD-029,Keychron Q1 Pro Wireless Custom Mechanical Keyboard,PROD-032,Razer BlackWidow V4 Pro Mechanical Gaming Keyboard,0.1748,17.5%
+PROD-029,Keychron Q1 Pro Wireless Custom Mechanical Keyboard,PROD-048,Sony PlayStation 5 DualSense Edge Wireless Controller,0.0783,7.8%
+PROD-029,Keychron Q1 Pro Wireless Custom Mechanical Keyboard,PROD-049,Apple Magic Trackpad Multi-Touch,0.0765,7.7%
+PROD-029,Keychron Q1 Pro Wireless Custom Mechanical Keyboard,PROD-051,Bose SoundLink Revolve+ II 360 Bluetooth Speaker,0.0525,5.3%
+PROD-030,Logitech MX Master 3S Wireless Mouse,PROD-031,Logitech MX Mechanical Wireless Keyboard,0.2488,24.9%
+PROD-030,Logitech MX Master 3S Wireless Mouse,PROD-049,Apple Magic Trackpad Multi-Touch,0.1254,12.5%
+PROD-030,Logitech MX Master 3S Wireless Mouse,PROD-048,Sony PlayStation 5 DualSense Edge Wireless Controller,0.0625,6.2%
+PROD-030,Logitech MX Master 3S Wireless Mouse,PROD-015,Sony WH-1000XM5 Noise Cancelling Headphones,0.0595,6.0%
+PROD-030,Logitech MX Master 3S Wireless Mouse,PROD-019,Sony WF-1000XM5 True Wireless Earbuds,0.0521,5.2%
+PROD-031,Logitech MX Mechanical Wireless Keyboard,PROD-029,Keychron Q1 Pro Wireless Custom Mechanical Keyboard,0.3013,30.1%
+PROD-031,Logitech MX Mechanical Wireless Keyboard,PROD-030,Logitech MX Master 3S Wireless Mouse,0.2488,24.9%
+PROD-031,Logitech MX Mechanical Wireless Keyboard,PROD-032,Razer BlackWidow V4 Pro Mechanical Gaming Keyboard,0.1823,18.2%
+PROD-031,Logitech MX Mechanical Wireless Keyboard,PROD-049,Apple Magic Trackpad Multi-Touch,0.1407,14.1%
+PROD-031,Logitech MX Mechanical Wireless Keyboard,PROD-048,Sony PlayStation 5 DualSense Edge Wireless Controller,0.0646,6.5%
+PROD-032,Razer BlackWidow V4 Pro Mechanical Gaming Keyboard,PROD-031,Logitech MX Mechanical Wireless Keyboard,0.1823,18.2%
+PROD-032,Razer BlackWidow V4 Pro Mechanical Gaming Keyboard,PROD-029,Keychron Q1 Pro Wireless Custom Mechanical Keyboard,0.1748,17.5%
+PROD-032,Razer BlackWidow V4 Pro Mechanical Gaming Keyboard,PROD-034,Samsung Odyssey Neo G9 49-inch Curved Gaming Monitor,0.0478,4.8%
+PROD-032,Razer BlackWidow V4 Pro Mechanical Gaming Keyboard,PROD-016,Bose QuietComfort Ultra Headphones,0.0468,4.7%
+PROD-032,Razer BlackWidow V4 Pro Mechanical Gaming Keyboard,PROD-048,Sony PlayStation 5 DualSense Edge Wireless Controller,0.0393,3.9%
+PROD-033,LG UltraGear 32 OLED 4K Gaming Monitor (32GS95UE),PROD-035,Dell UltraSharp 32 4K USB-C Hub Monitor (U3223QE),0.2389,23.9%
+PROD-033,LG UltraGear 32 OLED 4K Gaming Monitor (32GS95UE),PROD-034,Samsung Odyssey Neo G9 49-inch Curved Gaming Monitor,0.2248,22.5%
+PROD-033,LG UltraGear 32 OLED 4K Gaming Monitor (32GS95UE),PROD-052,Samsung ViewFinity S9 27-inch 5K Smart Monitor,0.1516,15.2%
+PROD-033,LG UltraGear 32 OLED 4K Gaming Monitor (32GS95UE),PROD-013,ASUS ROG Zephyrus G16 OLED,0.092,9.2%
+PROD-033,LG UltraGear 32 OLED 4K Gaming Monitor (32GS95UE),PROD-037,Canon EOS R6 Mark II Mirrorless Camera,0.0546,5.5%
+PROD-034,Samsung Odyssey Neo G9 49-inch Curved Gaming Monitor,PROD-033,LG UltraGear 32 OLED 4K Gaming Monitor (32GS95UE),0.2248,22.5%
+PROD-034,Samsung Odyssey Neo G9 49-inch Curved Gaming Monitor,PROD-052,Samsung ViewFinity S9 27-inch 5K Smart Monitor,0.1363,13.6%
+PROD-034,Samsung Odyssey Neo G9 49-inch Curved Gaming Monitor,PROD-004,Samsung Galaxy S24 Ultra,0.1023,10.2%
+PROD-034,Samsung Odyssey Neo G9 49-inch Curved Gaming Monitor,PROD-023,Samsung Galaxy Watch 6 Classic,0.0787,7.9%
+PROD-034,Samsung Odyssey Neo G9 49-inch Curved Gaming Monitor,PROD-035,Dell UltraSharp 32 4K USB-C Hub Monitor (U3223QE),0.0696,7.0%
+PROD-035,Dell UltraSharp 32 4K USB-C Hub Monitor (U3223QE),PROD-052,Samsung ViewFinity S9 27-inch 5K Smart Monitor,0.281,28.1%
+PROD-035,Dell UltraSharp 32 4K USB-C Hub Monitor (U3223QE),PROD-033,LG UltraGear 32 OLED 4K Gaming Monitor (32GS95UE),0.2389,23.9%
+PROD-035,Dell UltraSharp 32 4K USB-C Hub Monitor (U3223QE),PROD-046,UGREEN Nexode 140W GaN Fast Wall Charger,0.1143,11.4%
+PROD-035,Dell UltraSharp 32 4K USB-C Hub Monitor (U3223QE),PROD-044,Anker 737 Power Bank (PowerCore 24K),0.0815,8.1%
+PROD-035,Dell UltraSharp 32 4K USB-C Hub Monitor (U3223QE),PROD-011,Dell XPS 15 9530,0.075,7.5%
+PROD-036,Sony Alpha A7 IV Full-Frame Mirrorless Camera,PROD-037,Canon EOS R6 Mark II Mirrorless Camera,0.3675,36.8%
+PROD-036,Sony Alpha A7 IV Full-Frame Mirrorless Camera,PROD-039,Sony ZV-E1 Full-Frame Vlog Camera,0.3445,34.5%
+PROD-036,Sony Alpha A7 IV Full-Frame Mirrorless Camera,PROD-038,Fujifilm X-T5 Mirrorless Digital Camera,0.2817,28.2%
+PROD-036,Sony Alpha A7 IV Full-Frame Mirrorless Camera,PROD-008,Xiaomi 14 Ultra,0.0557,5.6%
+PROD-036,Sony Alpha A7 IV Full-Frame Mirrorless Camera,PROD-001,Apple iPhone 16 Pro Max,0.051,5.1%
+PROD-037,Canon EOS R6 Mark II Mirrorless Camera,PROD-036,Sony Alpha A7 IV Full-Frame Mirrorless Camera,0.3675,36.8%
+PROD-037,Canon EOS R6 Mark II Mirrorless Camera,PROD-038,Fujifilm X-T5 Mirrorless Digital Camera,0.2573,25.7%
+PROD-037,Canon EOS R6 Mark II Mirrorless Camera,PROD-039,Sony ZV-E1 Full-Frame Vlog Camera,0.205,20.5%
+PROD-037,Canon EOS R6 Mark II Mirrorless Camera,PROD-006,Google Pixel 9 Pro,0.0589,5.9%
+PROD-037,Canon EOS R6 Mark II Mirrorless Camera,PROD-033,LG UltraGear 32 OLED 4K Gaming Monitor (32GS95UE),0.0546,5.5%
+PROD-038,Fujifilm X-T5 Mirrorless Digital Camera,PROD-036,Sony Alpha A7 IV Full-Frame Mirrorless Camera,0.2817,28.2%
+PROD-038,Fujifilm X-T5 Mirrorless Digital Camera,PROD-037,Canon EOS R6 Mark II Mirrorless Camera,0.2573,25.7%
+PROD-038,Fujifilm X-T5 Mirrorless Digital Camera,PROD-039,Sony ZV-E1 Full-Frame Vlog Camera,0.1467,14.7%
+PROD-038,Fujifilm X-T5 Mirrorless Digital Camera,PROD-023,Samsung Galaxy Watch 6 Classic,0.0695,6.9%
+PROD-038,Fujifilm X-T5 Mirrorless Digital Camera,PROD-008,Xiaomi 14 Ultra,0.0597,6.0%
+PROD-039,Sony ZV-E1 Full-Frame Vlog Camera,PROD-036,Sony Alpha A7 IV Full-Frame Mirrorless Camera,0.3445,34.5%
+PROD-039,Sony ZV-E1 Full-Frame Vlog Camera,PROD-037,Canon EOS R6 Mark II Mirrorless Camera,0.205,20.5%
+PROD-039,Sony ZV-E1 Full-Frame Vlog Camera,PROD-038,Fujifilm X-T5 Mirrorless Digital Camera,0.1467,14.7%
+PROD-039,Sony ZV-E1 Full-Frame Vlog Camera,PROD-019,Sony WF-1000XM5 True Wireless Earbuds,0.0999,10.0%
+PROD-039,Sony ZV-E1 Full-Frame Vlog Camera,PROD-015,Sony WH-1000XM5 Noise Cancelling Headphones,0.0969,9.7%
+PROD-040,JBL Charge 5 Portable Bluetooth Speaker,PROD-043,Bose SoundLink Flex Bluetooth Speaker Gen 2,0.3312,33.1%
+PROD-040,JBL Charge 5 Portable Bluetooth Speaker,PROD-051,Bose SoundLink Revolve+ II 360 Bluetooth Speaker,0.1832,18.3%
+PROD-040,JBL Charge 5 Portable Bluetooth Speaker,PROD-041,Sonos Era 300 Spatial Audio Smart Speaker,0.1121,11.2%
+PROD-040,JBL Charge 5 Portable Bluetooth Speaker,PROD-042,Marshall Stanmore III Bluetooth Home Speaker,0.1089,10.9%
+PROD-040,JBL Charge 5 Portable Bluetooth Speaker,PROD-047,Anker MagGo Power Bank 10000mAh Qi2 15W,0.1076,10.8%
+PROD-041,Sonos Era 300 Spatial Audio Smart Speaker,PROD-043,Bose SoundLink Flex Bluetooth Speaker Gen 2,0.1838,18.4%
+PROD-041,Sonos Era 300 Spatial Audio Smart Speaker,PROD-016,Bose QuietComfort Ultra Headphones,0.1519,15.2%
+PROD-041,Sonos Era 300 Spatial Audio Smart Speaker,PROD-042,Marshall Stanmore III Bluetooth Home Speaker,0.1256,12.6%
+PROD-041,Sonos Era 300 Spatial Audio Smart Speaker,PROD-040,JBL Charge 5 Portable Bluetooth Speaker,0.1121,11.2%
+PROD-041,Sonos Era 300 Spatial Audio Smart Speaker,PROD-020,Apple AirPods Pro 2 (USB-C),0.1005,10.0%
+PROD-042,Marshall Stanmore III Bluetooth Home Speaker,PROD-041,Sonos Era 300 Spatial Audio Smart Speaker,0.1256,12.6%
+PROD-042,Marshall Stanmore III Bluetooth Home Speaker,PROD-051,Bose SoundLink Revolve+ II 360 Bluetooth Speaker,0.1108,11.1%
+PROD-042,Marshall Stanmore III Bluetooth Home Speaker,PROD-040,JBL Charge 5 Portable Bluetooth Speaker,0.1089,10.9%
+PROD-042,Marshall Stanmore III Bluetooth Home Speaker,PROD-043,Bose SoundLink Flex Bluetooth Speaker Gen 2,0.0998,10.0%
+PROD-042,Marshall Stanmore III Bluetooth Home Speaker,PROD-015,Sony WH-1000XM5 Noise Cancelling Headphones,0.0937,9.4%
+PROD-043,Bose SoundLink Flex Bluetooth Speaker Gen 2,PROD-051,Bose SoundLink Revolve+ II 360 Bluetooth Speaker,0.3322,33.2%
+PROD-043,Bose SoundLink Flex Bluetooth Speaker Gen 2,PROD-040,JBL Charge 5 Portable Bluetooth Speaker,0.3312,33.1%
+PROD-043,Bose SoundLink Flex Bluetooth Speaker Gen 2,PROD-041,Sonos Era 300 Spatial Audio Smart Speaker,0.1838,18.4%
+PROD-043,Bose SoundLink Flex Bluetooth Speaker Gen 2,PROD-016,Bose QuietComfort Ultra Headphones,0.176,17.6%
+PROD-043,Bose SoundLink Flex Bluetooth Speaker Gen 2,PROD-042,Marshall Stanmore III Bluetooth Home Speaker,0.0998,10.0%
+PROD-044,Anker 737 Power Bank (PowerCore 24K),PROD-047,Anker MagGo Power Bank 10000mAh Qi2 15W,0.3861,38.6%
+PROD-044,Anker 737 Power Bank (PowerCore 24K),PROD-046,UGREEN Nexode 140W GaN Fast Wall Charger,0.2897,29.0%
+PROD-044,Anker 737 Power Bank (PowerCore 24K),PROD-045,Belkin 3-in-1 MagSafe Wireless Charging Stand 15W,0.1283,12.8%
+PROD-044,Anker 737 Power Bank (PowerCore 24K),PROD-022,Apple Watch Series 9,0.1006,10.1%
+PROD-044,Anker 737 Power Bank (PowerCore 24K),PROD-009,Apple MacBook Pro 16 M3 Max,0.0971,9.7%
+PROD-045,Belkin 3-in-1 MagSafe Wireless Charging Stand 15W,PROD-047,Anker MagGo Power Bank 10000mAh Qi2 15W,0.2793,27.9%
+PROD-045,Belkin 3-in-1 MagSafe Wireless Charging Stand 15W,PROD-046,UGREEN Nexode 140W GaN Fast Wall Charger,0.1599,16.0%
+PROD-045,Belkin 3-in-1 MagSafe Wireless Charging Stand 15W,PROD-020,Apple AirPods Pro 2 (USB-C),0.1533,15.3%
+PROD-045,Belkin 3-in-1 MagSafe Wireless Charging Stand 15W,PROD-001,Apple iPhone 16 Pro Max,0.1392,13.9%
+PROD-045,Belkin 3-in-1 MagSafe Wireless Charging Stand 15W,PROD-044,Anker 737 Power Bank (PowerCore 24K),0.1283,12.8%
+PROD-046,UGREEN Nexode 140W GaN Fast Wall Charger,PROD-044,Anker 737 Power Bank (PowerCore 24K),0.2897,29.0%
+PROD-046,UGREEN Nexode 140W GaN Fast Wall Charger,PROD-045,Belkin 3-in-1 MagSafe Wireless Charging Stand 15W,0.1599,16.0%
+PROD-046,UGREEN Nexode 140W GaN Fast Wall Charger,PROD-035,Dell UltraSharp 32 4K USB-C Hub Monitor (U3223QE),0.1143,11.4%
+PROD-046,UGREEN Nexode 140W GaN Fast Wall Charger,PROD-047,Anker MagGo Power Bank 10000mAh Qi2 15W,0.1041,10.4%
+PROD-046,UGREEN Nexode 140W GaN Fast Wall Charger,PROD-020,Apple AirPods Pro 2 (USB-C),0.078,7.8%
+PROD-047,Anker MagGo Power Bank 10000mAh Qi2 15W,PROD-044,Anker 737 Power Bank (PowerCore 24K),0.3861,38.6%
+PROD-047,Anker MagGo Power Bank 10000mAh Qi2 15W,PROD-045,Belkin 3-in-1 MagSafe Wireless Charging Stand 15W,0.2793,27.9%
+PROD-047,Anker MagGo Power Bank 10000mAh Qi2 15W,PROD-040,JBL Charge 5 Portable Bluetooth Speaker,0.1076,10.8%
+PROD-047,Anker MagGo Power Bank 10000mAh Qi2 15W,PROD-046,UGREEN Nexode 140W GaN Fast Wall Charger,0.1041,10.4%
+PROD-047,Anker MagGo Power Bank 10000mAh Qi2 15W,PROD-050,SanDisk Extreme PRO 2TB Portable SSD,0.0979,9.8%
+PROD-048,Sony PlayStation 5 DualSense Edge Wireless Controller,PROD-019,Sony WF-1000XM5 True Wireless Earbuds,0.1413,14.1%
+PROD-048,Sony PlayStation 5 DualSense Edge Wireless Controller,PROD-049,Apple Magic Trackpad Multi-Touch,0.0899,9.0%
+PROD-048,Sony PlayStation 5 DualSense Edge Wireless Controller,PROD-020,Apple AirPods Pro 2 (USB-C),0.0818,8.2%
+PROD-048,Sony PlayStation 5 DualSense Edge Wireless Controller,PROD-029,Keychron Q1 Pro Wireless Custom Mechanical Keyboard,0.0783,7.8%
+PROD-048,Sony PlayStation 5 DualSense Edge Wireless Controller,PROD-003,Apple iPhone 15 Pro,0.0713,7.1%
+PROD-049,Apple Magic Trackpad Multi-Touch,PROD-031,Logitech MX Mechanical Wireless Keyboard,0.1407,14.1%
+PROD-049,Apple Magic Trackpad Multi-Touch,PROD-030,Logitech MX Master 3S Wireless Mouse,0.1254,12.5%
+PROD-049,Apple Magic Trackpad Multi-Touch,PROD-048,Sony PlayStation 5 DualSense Edge Wireless Controller,0.0899,9.0%
+PROD-049,Apple Magic Trackpad Multi-Touch,PROD-002,Apple iPhone 16,0.0804,8.0%
+PROD-049,Apple Magic Trackpad Multi-Touch,PROD-010,Apple MacBook Air 15 M3,0.0769,7.7%
+PROD-050,SanDisk Extreme PRO 2TB Portable SSD,PROD-051,Bose SoundLink Revolve+ II 360 Bluetooth Speaker,0.1097,11.0%
+PROD-050,SanDisk Extreme PRO 2TB Portable SSD,PROD-047,Anker MagGo Power Bank 10000mAh Qi2 15W,0.0979,9.8%
+PROD-050,SanDisk Extreme PRO 2TB Portable SSD,PROD-003,Apple iPhone 15 Pro,0.0944,9.4%
+PROD-050,SanDisk Extreme PRO 2TB Portable SSD,PROD-020,Apple AirPods Pro 2 (USB-C),0.0923,9.2%
+PROD-050,SanDisk Extreme PRO 2TB Portable SSD,PROD-044,Anker 737 Power Bank (PowerCore 24K),0.088,8.8%
+PROD-051,Bose SoundLink Revolve+ II 360 Bluetooth Speaker,PROD-043,Bose SoundLink Flex Bluetooth Speaker Gen 2,0.3322,33.2%
+PROD-051,Bose SoundLink Revolve+ II 360 Bluetooth Speaker,PROD-040,JBL Charge 5 Portable Bluetooth Speaker,0.1832,18.3%
+PROD-051,Bose SoundLink Revolve+ II 360 Bluetooth Speaker,PROD-016,Bose QuietComfort Ultra Headphones,0.1453,14.5%
+PROD-051,Bose SoundLink Revolve+ II 360 Bluetooth Speaker,PROD-042,Marshall Stanmore III Bluetooth Home Speaker,0.1108,11.1%
+PROD-051,Bose SoundLink Revolve+ II 360 Bluetooth Speaker,PROD-050,SanDisk Extreme PRO 2TB Portable SSD,0.1097,11.0%
+PROD-052,Samsung ViewFinity S9 27-inch 5K Smart Monitor,PROD-035,Dell UltraSharp 32 4K USB-C Hub Monitor (U3223QE),0.281,28.1%
+PROD-052,Samsung ViewFinity S9 27-inch 5K Smart Monitor,PROD-033,LG UltraGear 32 OLED 4K Gaming Monitor (32GS95UE),0.1516,15.2%
+PROD-052,Samsung ViewFinity S9 27-inch 5K Smart Monitor,PROD-034,Samsung Odyssey Neo G9 49-inch Curved Gaming Monitor,0.1363,13.6%
+PROD-052,Samsung ViewFinity S9 27-inch 5K Smart Monitor,PROD-027,Samsung Galaxy Tab S9 Ultra,0.1072,10.7%
+PROD-052,Samsung ViewFinity S9 27-inch 5K Smart Monitor,PROD-005,Samsung Galaxy Z Fold 5,0.0996,10.0%

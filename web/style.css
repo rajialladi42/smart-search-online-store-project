@@ -1,0 +1,112 @@
+/* SmartSearch - Modern E-Commerce Store Custom Styles */
+
+:root {
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --secondary: #0f172a;
+  --accent: #f59e0b;
+  --accent-green: #10b981;
+  --card-bg: #ffffff;
+  --bg-main: #f8fafc;
+  --border-color: #e2e8f0;
+  --text-main: #1e293b;
+  --text-muted: #64748b;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Glassmorphism & Modern Shadows */
+.glass-header {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.product-card {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px -8px rgba(15, 23, 42, 0.12), 0 4px 12px -2px rgba(15, 23, 42, 0.06);
+}
+
+.product-image-container {
+  overflow: hidden;
+  background: #f1f5f9;
+  position: relative;
+}
+
+.product-image-container img {
+  transition: transform 0.4s ease;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.product-card:hover .product-image-container img {
+  transform: scale(1.06);
+}
+
+/* DMGT Math Formula Box */
+.dmgt-formula-box {
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  border-left: 4px solid #38bdf8;
+  color: #e2e8f0;
+}
+
+.badge-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .6; }
+}
+
+/* Autocomplete Dropdown Transitions */
+.autocomplete-dropdown {
+  max-height: 380px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.15), 0 10px 10px -5px rgba(0, 0, 0, 0.08);
+}
+
+/* Smooth modal transitions */
+.modal-backdrop {
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(6px);
+}
+
+/* Line clamps */
+.line-clamp-1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
